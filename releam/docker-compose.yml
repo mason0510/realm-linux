@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  realm-2.3:
+    image: realm:v2.3
+    network_mode: "host"
+    volumes:
+      - /root/releam/conf:/home
+    command: 
+      - "-c=/root/releam/conf/config.toml"
+
