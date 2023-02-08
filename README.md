@@ -14,4 +14,5 @@ scp /home/work/source.txt work@192.168.0.10:/home/work/   #把本地的source.tx
 systemctl daemon-reload
 systemctl enable realm
 systemctl restart realm
-systemctl status realm
+systemctl status myrealm
+systemctl stop myrealm
